@@ -1,7 +1,7 @@
 {
   "name": "weiditan/laravel-theme",
   "description": "Theme for laravel",
-  "type": "project",
+  "type": "library",
   "authors": [
     {
       "name": "Your Name",
@@ -15,12 +15,8 @@
   },
   "autoload": {
     "psr-4": {
-      "Bo\\Theme\\": "src/"
+      "Blackwell\\Bo\\Theme\\": "src/"
     }
   },
-  "scripts": {
-    "post-install-cmd": [
-      "php -r \"echo 'Composer install complete!';\""
-    ]
-  }
+  "scripts": {}
 }
