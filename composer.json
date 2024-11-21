@@ -1,0 +1,26 @@
+{
+  "name": "weiditan/laravel-theme",
+  "description": "Theme for laravel",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Your Name",
+      "email": "your-email@example.com"
+    }
+  ],
+  "license": "MIT",
+  "require": {
+    "php": "^8.2",
+    "laravel/framework": "^11.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bo\\Theme\\": "src/"
+    }
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "php -r \"echo 'Composer install complete!';\""
+    ]
+  }
+}
